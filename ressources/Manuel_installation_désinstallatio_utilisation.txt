@@ -1,0 +1,98 @@
+﻿*************************************************************************************************************
+*																											*
+*																											*
+*																											*
+*																											*
+*																											*
+*																											*
+*						   * * * * * * * * * * * * * * * * * * * * * * * * * * *							*
+*						   *                                                   *							*
+*						   *      Manuel d'installation/désinstallatio         *							*
+*						   *               et d’utilisation                    *							*
+*						   *                                                   *							*
+*						   * * * * * * * * * * * * * * * * * * * * * * * * * * *						    *
+*																											*
+*																											*
+*																											*
+*																											*
+*																											*
+*																											*
+*************************************************************************************************************
+*																											*
+*	Installation:																							*
+*																											*
+*																											*
+*	1. Téléchargez le fichier exécutable à partir d’une clés ou du sur le site officiel:					*
+*      https://gerid0.github.io/Etuanortsa/																	*
+*																											*
+*																											*
+*	2. Lancez le fichier exécutable “Etuanortsa_Setup(x64).exe”.											*
+*																											*
+*																											*
+*	3. Choisissez la langue d’installation et cliquez sur “Suivant”.										*
+*																											*
+*																											*
+*	4. Choisissez l’emplacement futur du jeu et cliquez sur “Suivant”.										*
+*																											*
+*																											*
+*	5. Cochez si vous voulez un raccourci sur votre bureau et cliquez sur ”Suivant”.						*
+*																											*
+*																											*
+*	6. Cliquez sur “Installer”.																				*
+*																											*
+*																											*
+*	7. Cochez si vous voulez lancer le jeu et cliquez sur “Terminer”.										*
+*																											*
+*																											*
+*																											*
+*																											*
+*************************************************************************************************************
+*																											*
+*	Désinstallation:																						*
+*																											*
+*																											*
+*	1. Cliquez sur "Écran de démarrage”.																	*
+*																											*
+*																											*
+*	2. Cherchez “Etuanortsa” et faites clique-droit, “Désinstaller”.										*
+*																											*
+*																											*
+*	3. Cherchez “Etuanortsa version 1.0” dans vos programme, puis faites clique-droit, “Désinstaller”		*
+*																											*
+*																											*
+*																											*
+*																											*
+*************************************************************************************************************
+*																											*
+*	Utilisation:																							*
+*																											*
+*																											*
+*        Clavier:																							*
+*																											*
+*                    “Échappe"   = Menu d’option															*
+*																											*
+*																											*
+*					   “E”      = Menu du magasin															*
+*																											*
+*																											*
+*					   “W”      = Aller en avant															*
+*																											*
+*																											*
+*					   “A”      = Aller à gauche															*
+*																											*
+*																											*
+*					   “S”      = Aller en arrière															*
+*																											*
+*																											*
+*					   “D”      = Aller à droite															*
+*																											*
+*																											*
+*        Souris:																							*
+*																											*
+*																											*
+*               “Clique-gauche” = Sélection et tire															*
+*																											*
+*																											*
+*																											*
+*																											*
+*************************************************************************************************************
