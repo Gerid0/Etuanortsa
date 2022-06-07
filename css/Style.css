@@ -326,12 +326,13 @@ div.logo{
 
 @media all and (max-width: 992px) {
 	section.top-page h1.title {
-		font-size: 70px;
+		font-size: 60px;
 	}
 
 	div.logo {
 		width: 315px;
 		height: 250px;
+		margin-top: -90px;
 		background-size: cover;
 	}
 
@@ -344,6 +345,11 @@ div.logo{
 	h2.histoire {
 		font-size: 60px;
 		text-align: center;
+	}
+
+	div.histoire img { 
+		padding-right: 0;
+		width: 300px;
 	}
 
 	div.text-histoire {
