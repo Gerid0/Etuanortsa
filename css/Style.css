@@ -1,0 +1,404 @@
+@import url("https://fonts.googleapis.com/css2?family=Iceland&display=swap");
+
+*{
+	font-family: 'Iceland', cursive;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body{
+	margin: 0 auto;
+	background: url("../img/fund.png");
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+/* Top page */
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+	background-color: #350536;
+	border-radius: 3px;
+	margin-top: 3%;
+	margin-left: 3.2%;
+	margin-right: 3.2%;
+	height: 55px;
+}
+
+nav a {
+	background-color: transparent;
+	border: 0;
+	text-decoration: none;
+	text-align: center;
+	font-size: 25px;
+	color: #ffffff;
+	vertical-align: middle;
+	margin: auto;
+	font-weight: bolder;
+	cursor: pointer;
+}
+
+nav a:hover {
+	transition: color 0.4s ease-out;
+	color: silver;
+}
+
+section.top-page h1.title{
+	display: flexbox;
+	text-align: center;
+	color: #ffffff;
+	font-size: 150px;
+}
+
+div.logo{
+	background-image: url("../img/Etuanortsa_logo.png");
+	margin-top: -180px;
+	margin-left: auto;
+    margin-right: auto;
+	width: 500px;
+	height: 500px;
+	background-repeat:no-repeat;
+}
+
+/* Presentation */
+
+	/* Histoire */
+	h2.histoire{
+		list-style: none;
+		color: #ffffff;
+		border-radius: 3px;
+		margin-top: 20%;
+		margin-left: 3.2%;
+		font-size: 100px;
+	}
+
+	div.histoire {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	div.text-histoire{
+		display: flex;
+		padding: left;
+		list-style: none;
+		border: 6px solid #22206e;
+		background-color: #04024d;
+		border-radius: 3px;
+		margin-left: 3.2%;
+		height: 100%;
+		width: 60%;
+	}
+
+	div.histoire img { 
+		padding-right: 3.2%;
+		width: 400px;
+	}
+
+	div.text-histoire div{
+		display: table-cell;
+		margin: 40px;
+		text-align: justify;
+		color: #ffffff;
+		font-size: 35px;
+	}
+
+	/* But du jeu */
+	h2.but{
+		list-style: none;
+		color: #ffffff;
+		border-radius: 3px;
+		margin-top: 20%;
+		font-size: 100px;
+		display: flex;
+		align-items: center;
+		justify-content: end;
+		padding-right: 3.2%;
+	}
+
+	div.but{
+		display: flex;
+		align-items: center;
+		justify-content: end;
+		padding-right: 3.2%;
+	}
+
+	div.but img { 
+		width: 200px;
+	}
+
+	div.text-but{
+		display: flex;
+		padding: right;
+		list-style: none;
+		border: 6px solid #b97dd3;
+		background-color: #895B9C;
+		border-radius: 3px;
+		margin-left: 3.2%;
+		height: 100%;
+		width: 60%;
+	}
+
+	div.text-but div{
+		display: table-cell;
+		margin: 40px;
+		text-align: justify;
+		color: #ffffff;
+		font-size: 35px;
+	}
+
+	/* Armes */
+	h2.armes{
+		list-style: none;
+		color: #ffffff;
+		border-radius: 3px;
+		margin-top: 20%;
+		text-align: center;
+		font-size: 100px;
+	}
+
+	div.armes{
+		background: url(../img/armurie.png);
+		background-repeat: no-repeat;
+  		background-position: center;
+		background-size: contain;
+		justify-content: space-between;
+	}
+
+	.img-bas-arme {
+		width: 175px;
+		transition: transform .1s;
+		padding: 30px;
+	}
+
+	.arme-plus-infos-conteneur {
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.arme-plus-infos-conteneur:hover .arme-infos {
+		visibility: visible;
+		transition: opacity 0.6s ease-out;
+		opacity: 1;
+	}
+
+	.arme-infos {
+		background-color: rgb(65, 57, 57);
+		border-radius: 5px;
+		padding: 20px;
+		color: white;
+		box-shadow: 1px 1px 4px silver;
+		position: absolute;
+		top: 60%;
+		left: 28%;
+		font-size: 20px;
+		opacity: 0;
+		visibility: hidden;
+	}
+
+	.arme-infos ul {
+		padding: 0;
+		margin: 0;
+		list-style-type: none;
+	}
+
+
+	img.img-bas-arme:hover{
+		-ms-transform: scale(1.2);
+		-webkit-transform: scale(1.2);
+		transform: scale(1.2);
+	}
+
+	/*Ennemis*/
+	h2.ennemis{
+		list-style: none;
+		color: #ffffff;
+		border-radius: 3px;
+		margin-top: 20%;
+		text-align: center;
+		font-size: 100px;
+	}
+
+	div.ennemis-section{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.img-bas-ennemi {
+		width: 175px;
+		transition: transform .1s;
+		padding: 30px;
+	}
+
+	.ennemis-plus-infos-conteneur {
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.ennemis-plus-infos-conteneur:hover .ennemi-infos {
+		visibility: visible;
+		transition: opacity 0.6s ease-out;
+		opacity: 1;
+	}
+
+	.ennemi-infos {
+		background-color: rgb(65, 57, 57);
+		border-radius: 5px;
+		padding: 20px;
+		color: white;
+		box-shadow: 1px 1px 4px silver;
+		position: absolute;
+		top: 60%;
+		left: 30%;
+		font-size: 20px;
+		opacity: 0;
+		visibility: hidden;
+	}
+
+	.ennemi-infos ul {
+		padding: 0;
+		margin: 0;
+		list-style-type: none;
+	}
+
+
+	img.img-bas-ennemi:hover{
+		-ms-transform: scale(1.2);
+		-webkit-transform: scale(1.2);
+		transform: scale(1.2);
+	}
+
+	/*Actualité*/
+	h2.actualite{
+		list-style: none;
+		color: #ffffff;
+		border-radius: 3px;
+		margin-top: 20%;
+		text-align: center;
+		font-size: 100px;
+	}
+
+	.actualite-section{
+		width: 100%;
+		display: flex;
+		align-items: center;
+		padding-left: 11.5%;
+	}
+
+	div.text-actualite{
+		display:grid;
+		align-items: center;
+		list-style: none;
+		border: 6px solid #386c13;
+		background-color: #2f5512;
+		border-radius: 3px;
+		margin-left: 3.2%;
+		margin-right: 3.2%;
+		height: 100%;
+	}
+
+	div.text-actualite div{
+		display: table-cell;
+		margin: 40px;
+		text-align: justify;
+		color: #ffffff;
+		font-size: 35px;
+	}
+
+	/*Telechargement*/
+	nav.telechargement {
+		margin-top: 8%;
+		margin-bottom: 8%;
+		margin-left: 12%;
+		margin-right: 12%;
+	}
+
+@media all and (max-width: 992px) {
+	section.top-page h1.title {
+		font-size: 80px;
+	}
+
+	div.logo {
+		width: 315px;
+		height: 250px;
+		background-size: cover;
+	}
+
+	div.histoire {
+		flex-direction: column-reverse;
+		text-align: center;
+		padding: 0;
+	}
+
+	h2.histoire {
+		font-size: 60px;
+		text-align: center;
+	}
+
+	div.text-histoire {
+		margin-left: 0;
+		width: 90%;
+	}
+
+	div.but {
+		flex-direction: column;
+		text-align: center;
+		padding: 0;
+	}
+
+	h2.but {
+		font-size: 60px;
+		margin-left: 0;
+		text-align: center;
+		justify-content: center;
+		padding-right: 0;
+	}
+
+	div.but img{
+		padding-top: 3%;
+	}
+
+	div.text-but {
+		margin-left: 0;
+		width: 90%;
+	}
+
+	h2.armes {
+		font-size: 60px;
+	}
+
+	div.armes{
+		margin-top: 0;
+	}
+
+	h2.ennemis {
+		font-size: 60px;
+	}
+
+	h2.actualite{
+		font-size: 60px;
+	}
+}
+
+@media all and (max-width: 850px) {
+	nav.top-page {
+		height: auto;
+		padding: 15px 0;
+	}
+	
+	nav.top-page a {
+		width: 100%;
+	}
+}
+
