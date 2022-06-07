@@ -326,7 +326,7 @@ div.logo{
 
 @media all and (max-width: 992px) {
 	section.top-page h1.title {
-		font-size: 80px;
+		font-size: 70px;
 	}
 
 	div.logo {
@@ -399,6 +399,20 @@ div.logo{
 	
 	nav.top-page a {
 		width: 100%;
+	}
+}
+
+@media all and (max-width: 500px){
+	div.text-histoire div{
+		font-size: 20px;
+	}
+
+	div.text-but div{
+		font-size: 20px;
+	}
+
+	div.text-actualite div{
+		font-size: 20px;
 	}
 }
 
